@@ -11,7 +11,7 @@ const Register = require("./models/register");
 const SignupUser = require("./models/signup");
 const auth = require("./middleware/auth");
 
-const port = process.env.PORT || 8001;
+const port = process.env.PORT || 3000;
 const app = express();
 
 //------------------------------------------------------setting the path-------------------------------
